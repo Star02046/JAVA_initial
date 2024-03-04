@@ -27,16 +27,13 @@ public class Main {
         int b = sc.nextInt();
 
         if (a==b){
-            System.out.println("Equal");
+            System.out.println("equal");
+        } else if (a>b) {
+            System.out.println("a is greater");
+
+        } else {
+            System.out.println("a is smaller");
         }
-        else
-        {
-            if (a>b){
-                System.out.println("A is greater");
-            }
-            else {
-                System.out.println("A is smaller");
-            }
-        }
+
     }
 }
