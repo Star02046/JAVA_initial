@@ -1,9 +1,36 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//import java.util.*;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int age = sc.nextInt();
+//
+//        if(age>18){
+//            System.out.println("adult");
+//
+//        }
+//        else {
+//            System.out.println("not adult");
+//        }
+//
+//
+//    }
+
+//check even or odd
+
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello world");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
 
+        if (a%2==0){
+            System.out.println("Even no");
 
+        }
+        else {
+            System.out.println("Odd no");
+        }
     }
 }
