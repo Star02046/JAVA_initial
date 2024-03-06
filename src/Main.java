@@ -15,9 +15,7 @@
 //        }
 //
 //
-//    }
-
-//check even or odd
+//
 
 import java.util.Scanner;
 public class Main {
@@ -25,12 +23,19 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if (a%2==0){
-            System.out.println("Even no");
+        if (a==1) {
+            System.out.println("Nameste");
+        }
+        else if (a==2){
+            System.out.println("Hello");
+        } else if (a==3) {
+            System.out.println("bonjour");
 
         }
-        else {
-            System.out.println("Odd no");
+        else{
+            System.out.println("Enter no between 1 to 3");
         }
+
     }
+
 }
