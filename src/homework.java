@@ -56,37 +56,48 @@ import java.util.Scanner;
 public class homework {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the no of month..");
         int a = sc.nextInt();
-        int b = sc.nextInt();
-        System.out.println("Enter your choice..");
-        int choice = sc.nextInt();
 
-
-        switch (choice){
+        switch (a){
             case 1 :
-                int sum = a+b;
-                System.out.println(sum);
+                System.out.println("January");
                 break;
             case 2 :
-                int sub = a-b;
-                System.out.println(sub);
+                System.out.println("Feburary");
                 break;
             case 3 :
-                int mul = a*b;
-                System.out.println(mul);
+                System.out.println("March");
                 break;
             case 4 :
-                float div = a/b;
-                System.out.println(div);
+                System.out.println("April");
                 break;
             case 5 :
-                int mode = a%b;
-                System.out.println(mode);
+                System.out.println("May");
+                break;
+            case 6 :
+                System.out.println("June");
+                break;
+            case 7 :
+                System.out.println("July");
+                break;
+            case 8 :
+                System.out.println("August");
+                break;
+            case 9 :
+                System.out.println("September");
+                break;
+            case 10 :
+                System.out.println("October");
+                break;
+            case 11 :
+                System.out.println("November");
+                break;
+            case 12 :
+                System.out.println("December");
                 break;
             default :
-                System.out.println("enter the between 1 to 5");
-
-
+                System.out.println("enter upto 12");
 
 
         }
