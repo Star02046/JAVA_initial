@@ -49,7 +49,49 @@ public class homework {
 }
 
 */
-//ppppp
+
+//make a calculator and use the basic mathematics operations...
+
+import java.util.Scanner;
+public class homework {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("Enter your choice..");
+        int choice = sc.nextInt();
+
+
+        switch (choice){
+            case 1 :
+                int sum = a+b;
+                System.out.println(sum);
+                break;
+            case 2 :
+                int sub = a-b;
+                System.out.println(sub);
+                break;
+            case 3 :
+                int mul = a*b;
+                System.out.println(mul);
+                break;
+            case 4 :
+                float div = a/b;
+                System.out.println(div);
+                break;
+            case 5 :
+                int mode = a%b;
+                System.out.println(mode);
+                break;
+            default :
+                System.out.println("enter the between 1 to 5");
+
+
+
+
+        }
+    }
+}
 
 
 
