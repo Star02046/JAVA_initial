@@ -17,26 +17,39 @@
 //
 //
 
-import java.util.Scanner;
+//import java.util.Scanner;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int a = sc.nextInt();
+//
+//        switch (a){
+//            case 1 :
+//                System.out.println("Hello");
+//                break;
+//            case 2 :
+//                System.out.println("Namesta");
+//                break;
+//            case 3 :
+//                System.out.println("Bonjour");
+//                break;
+//            default :
+//                System.out.println("invalid");
+//        }
+//
+//    }
+//
+//}
+
+
+//loops :
+
+
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-
-        switch (a){
-            case 1 :
-                System.out.println("Hello");
-                break;
-            case 2 :
-                System.out.println("Namesta");
-                break;
-            case 3 :
-                System.out.println("Bonjour");
-                break;
-            default :
-                System.out.println("invalid");
+        //counter++ = counter+1
+        for (int counter = 0; counter <11; counter++){
+            System.out.print(counter+" ");
         }
-
     }
-
 }
